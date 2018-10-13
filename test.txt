@@ -1,2 +1,7 @@
 to create a file using cmd.exe, type:
 	cd . > test.txt
+
+Setting User details:
+git config --global user.name "pcsailor"
+git config --global user.email "phil@philcurtis.io"
+cat ~/.gitconfig
