@@ -1,0 +1,2 @@
+to create a file using cmd.exe, type:
+	cd . > test.txt
