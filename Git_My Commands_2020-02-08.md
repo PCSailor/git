@@ -34,10 +34,10 @@ Git_My Commands.md
 | https://try.github.io | Excellent tutorial |
 
 
-# Basic flow:
-git add .
-git commit
-git push
+# Basic flow:  
+git add .  
+git commit  
+git push  
 
 # Workflow on existing Github repositories:
 Navigate to directory
