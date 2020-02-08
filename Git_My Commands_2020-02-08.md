@@ -1,5 +1,5 @@
-Git_My Commands.md
-# My Github profile: <https://github.com/PCSailor
+Git_My Commands.md  
+# My Github profile: <https://github.com/PCSailor  
 
 | Command: | Description: |
 | -------- | ------------ |
@@ -34,46 +34,46 @@ Git_My Commands.md
 | https://try.github.io | Excellent tutorial |
 
 
-# Basic flow:
-git add .
-git commit
-git push
+# Basic flow:  
+git add .  
+git commit  
+git push  
 
-# Workflow on existing Github repositories:
-Navigate to directory
-git init # creates hidden directory for Github.com
-git status # check git init success with red files
-git add . # adds new/modified files, without deleted, for inclusion in next git commit
-  git add -A stages all
-  git add -u stages modified & deleted, without new
-git status # check git add success with green files
-git commit -m "message"
-git remote add origin <add github-repositiory www>
-git push -u origin master
-  -u only for 1st push, -f to force
-  :q quits VIM
-
-# Create new repository from command line
-Navigate to directory
-git init
-git add .
-git commit -m "message"
-git remote add origin <add github website>
-git push -u origin master
-
-# Push existing repository from command line
-git remote add origin <add github website>
-git push -u origin master
-
-# Join repository as collaborator
-git clone <add github address>
-Navigate to directory & edit code as needed
-git add .
-git commit -m "message"
-git push
-
-# Update local files with newer repository
-git checkout <branch name>
-git branch
-git pull
-git checkout . # deletes changes to files
+# Workflow on existing Github repositories:  
+Navigate to directory  
+git init # creates hidden directory for Github.com  
+git status # check git init success with red files  
+git add . # adds new/modified files, without deleted, for inclusion in next git commit  
+  git add -A stages all  
+  git add -u stages modified & deleted, without new  
+git status # check git add success with green files  
+git commit -m "message"  
+git remote add origin <add github-repositiory www>  
+git push -u origin master  
+  -u only for 1st push, -f to force  
+  :q quits VIM  
+  
+# Create new repository from command line  
+Navigate to directory  
+git init  
+git add .  
+git commit -m "message"  
+git remote add origin <add github website>  
+git push -u origin master  
+  
+# Push existing repository from command line  
+git remote add origin <add github website>  
+git push -u origin master  
+  
+# Join repository as collaborator  
+git clone <add github address>  
+Navigate to directory & edit code as needed  
+git add .  
+git commit -m "message"  
+git push  
+  
+# Update local files with newer repository  
+git checkout <branch name>  
+git branch  
+git pull  
+git checkout . # deletes changes to files  
